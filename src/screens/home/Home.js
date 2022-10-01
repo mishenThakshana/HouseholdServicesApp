@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <SafeAreaView style={{flex: 1}}>
       <Banner />
-      <ScrollView>
+      <ScrollView showsVerticalScrollIndicator={false}>
         <View>
           <SectionTitle text="Category" />
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
